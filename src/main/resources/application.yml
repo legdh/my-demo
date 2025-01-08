@@ -1,0 +1,6 @@
+mybatis-plus:
+  mapper-locations: classpath*:/mapper/*.xml  # XML 映射文件路径
+  type-aliases-package: com.example.demo.entity  # 实体类包路径
+  configuration:
+    map-underscore-to-camel-case: true  # 开启驼峰命名映射
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl  # 打印 SQL 日志
